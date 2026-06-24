@@ -2,7 +2,7 @@
 It cleans your arch of crap like orphans and unneeded packages
 
 # Here is all the commands to do it manually
-pacman -Qdtq  - Scans the system to identify packages that were installed as dependencies but are no longer required by any other package.
+pacman -Qdtq  - Scans the system to identify packages that were installed as dependencies but are no longer required by any other package.  
 pacman -Rns   - Removes the specified orphaned packages along with their configuration files (-n) and unneeded dependencies (-s).
 systemctl list-timers --all   - Lists all active and inactive systemd timers
 systemctl disable --now yourtimer.timer
