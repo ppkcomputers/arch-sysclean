@@ -1,7 +1,7 @@
 # arch-sysclean
 It cleans your arch of crap like orphans and unneeded packages
 
-# Here is all the commands to do it manually
+# Here are all the commands to do it manually
 pacman -Qdtq  - Scans the system to identify packages that were installed as dependencies but are no longer required by any other package.  
 
 sudo pacman -Rns $(pacman -Qdtq)   - Removes the specified orphaned packages along with their configuration files (-n) and unneeded dependencies (-s).  
