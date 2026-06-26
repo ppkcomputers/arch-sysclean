@@ -1,7 +1,8 @@
 # arch-sysclean
 It cleans your arch of crap like orphans and unneeded packages
 
-Run curl in terminal
+# Run curl in terminal  
+
 curl -sSL https://raw.githubusercontent.com/ppkcomputers/arch-sysclean/main/arch-sysclean.sh -o /tmp/arch-sysclean.sh && chmod +x /tmp/arch-sysclean.sh && sudo /tmp/arch-sysclean.sh
 
 
