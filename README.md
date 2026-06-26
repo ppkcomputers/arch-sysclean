@@ -1,4 +1,4 @@
-# arch-sysclean
+# Arch Sysclean
 It cleans your arch of crap like orphans and unneeded packages
 
 # Run curl in terminal  
